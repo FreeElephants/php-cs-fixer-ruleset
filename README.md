@@ -16,12 +16,12 @@ $finder = PhpCsFixer\Finder::create()
     ->in([
         './config/',
         './src/',
-        './tests/'
-       );
+        './tests/',
+    ]);
 
 $overridedProjectRules = [
 
 ];
 
-return \StudService\PhpCsFixer\build_config($finder, $overridedProjectRules);
+return \FreeElephants\PhpCsFixer\build_config($finder, $overridedProjectRules);
 ```

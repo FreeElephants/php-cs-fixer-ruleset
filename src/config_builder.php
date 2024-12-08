@@ -1,6 +1,6 @@
 <?php
 
-namespace StudService\PhpCsFixer;
+namespace FreeElephants\PhpCsFixer;
 
 use PhpCsFixer\Config;
 use PhpCsFixer\ConfigInterface;
