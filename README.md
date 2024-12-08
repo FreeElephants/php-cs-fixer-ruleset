@@ -1,9 +1,9 @@
-# Набор правил php-cs-fixer для Студсервис
+# Набор правил php-cs-fixer
 
 ## Install
 
 ```shell
-composer require --dev studservis/php-cs-fixer-ruleset
+composer require --dev free-elephants/php-cs-fixer-ruleset
 ```
 
 ## Usage
@@ -14,11 +14,14 @@ composer require --dev studservis/php-cs-fixer-ruleset
 
 $finder = PhpCsFixer\Finder::create()
     ->in([
-        './application/',
+        './config/',
+        './src/',
         './tests/'
        );
 
-$overridedProjectRules = [...];
+$overridedProjectRules = [
+
+];
 
 return \StudService\PhpCsFixer\build_config($finder, $overridedProjectRules);
 ```
