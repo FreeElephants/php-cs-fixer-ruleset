@@ -9,7 +9,7 @@
   "description": "FreeElephants shared PHP style rules for PHP-CS-Fixer",
   "license": "MIT",
   "require": {
-    "friendsofphp/php-cs-fixer": "^3.3"
+    "friendsofphp/php-cs-fixer": "^3.4"
   },
   "autoload": {
     "files": [
